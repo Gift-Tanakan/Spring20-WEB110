@@ -1,0 +1,497 @@
+* {
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+
+/*embed fonts---- Fredoka*/
+
+.blueberry { 
+    width: 940px; 
+}
+
+@font-face {
+    font-family: 'fredoka_dingbatsregular';
+    src: url('../fonts/fredoka_dingbats-webfont.woff2') format('woff2'),
+         url('../fonts/fredoka_dingbats-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'fredoka_oneregular';
+    src: url('../fonts/fredokaone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/fredokaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*embed fonts---- Raleway*/
+
+@font-face {
+    font-family: 'ralewayextralight_italic';
+    src: url('../fonts/raleway-extralightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('../fonts/raleway-thin-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaythin_italic';
+    src: url('../fonts/raleway-thinitalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('../fonts/raleway-black-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ralewayblack_italic';
+    src: url('../fonts/raleway-blackitalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaybold_italic';
+    src: url('../fonts/raleway-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayextrabold';
+    src: url('../fonts/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayextrabold_italic';
+    src: url('../fonts/raleway-extrabolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayextralight';
+    src: url('../fonts/raleway-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('../fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaymedium_italic';
+    src: url('../fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../fonts/raleway-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaysemibold_italic';
+    src: url('../fonts/raleway-semibolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*BODY styles start here!!!*/
+
+
+body {
+    font-family: 'ralewayregular', verdana, helvetica, arial, sans-serif;
+    font-size: 100%;
+    background: #F0FBEA;
+    
+}
+header {
+    padding: 10px 0;
+    overflow: hidden;
+/*
+    top: 0;
+    left: 0;
+*/
+    width: 100%;
+}
+
+#logo {
+    float: left;
+    width: 300px;
+}
+.inner {
+    width: 940px;
+    margin: 0 auto;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin-top: 40px;
+}
+nav li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 1.25em;
+    font-family: 'ralewaymedium';
+}
+nav a:hover {
+    color: #999;
+}
+
+main {
+    float: right;
+    clear: both;
+}
+.row {
+    padding: 20px 0;
+    overflow: hidden;
+    clear: both;
+}  
+.row-header {
+
+    overflow: hidden;
+    clear: both;
+}
+.background {
+    background: #fff;
+}
+.third {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+}
+.third:last-of-type, .col-8:last-of-type {
+    margin-right: 0;
+}
+.col-8 {
+    width: 460px;
+    float: left;
+    margin-right: 20px;
+}
+/*
+.col {
+    width: 172px;
+    background: pink;
+    height: 200px;
+    float: left;
+    margin-right: 10px; 
+}
+*/
+
+footer {
+    height: 70px;
+    line-height: 70px;
+
+}
+footer li {
+    float: left;
+    margin-right: 30px; 
+    list-style-type: none;
+    color: #777;
+}
+footer a {
+    color: #777;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.about-cover-img {
+    margin-top: 60px;
+}
+.phone-app {
+    margin-left: 30px;
+    margin-top: 30px;
+    top: 0;
+    width: 600px;
+}
+.how-it-helps {
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+span {
+    display: block;
+    margin-top: 6px;
+    text-align: center;
+}
+/***********typography***********/
+h1 {
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'fredoka_oneregular';
+}
+#Store-Partners h1 {
+    margin-top: 10px;
+}
+h2 {
+    text-align: center;
+    margin: 10px 0 25px;
+    font-size: 2em;
+}
+#About h2 {
+    margin: 25px 0 30px 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+h1, h2, h3 {
+    font-family: 'fredoka_oneregular';
+    font-weight: normal;
+}
+h3, p {
+    color: #444;
+}
+img + h3 {
+    margin: 15px 0 8px 0;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.45;
+    text-align: center;
+}
+.title-text {
+    margin-bottom: 40px;
+}
+.third p {
+    padding: 0 15px;
+}
+.third p, .col-8 p {
+    font-size: 1.2em;
+}
+.about-text {
+    padding: 0 90px;
+}
+video {
+    height: 620px;
+}
+.download-btn {
+    width: 400px;
+    margin: 40px auto 30px auto;
+    
+}
+.download-part {
+    margin-bottom: 0;
+    padding: 20px 0;
+    overflow: hidden;
+    clear: both;
+}
+#About .download-part {
+    margin-bottom: 0;
+    padding: 20px 0;
+    overflow: hidden;
+    clear: both;
+    border-top: 1px solid #DCDCDC;
+}
+/*
+.download-part {
+    margin-bottom: 0;
+    overflow: hidden;
+    clear: both;
+    border-top: 1px solid #DCDCDC;
+}
+*/
+
+.download-top {
+    float: left;
+    width: 400px;
+    margin-left: 30px;
+
+}
+.valid-icon {
+    margin-top: 10px;
+}
+
+/*--------------Form-----------------*/
+#wrapper {
+    width: 940px;
+    margin: 0 auto;
+    
+}
+form, main {
+    width: 580px;   
+    float: left;
+    margin-bottom: 20px;
+}
+fieldset {
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+#thanks fieldset {
+    padding: 80px;
+}
+fieldset a {
+    color: #444;
+}
+fieldset a:hover {
+    color: #999;
+}
+legend {
+    font-size: 1.4em;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 30px 5px 0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+input[placeholder] {
+    font-family: 'ralewaymedium';
+}
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+}
+input[type="text"],[type="email"],textarea {
+    padding: 12px 20px;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #000;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+    font-family: 'ralewaymedium';
+  
+}
+input[type="submit"]:hover {
+    background-color: #444;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    font-family: 'ralewaymedium';
+}
+
+form ul {
+    margin-left: 10px;
+}
+form li {
+    list-style-type: none;
+}
+span {
+    font-weight: bold;
+}
+/*----------aside----------*/
+
+aside {
+    width: 340px;
+    float: right;  
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+aside h3 {
+    text-align: left;
+    margin: 0 0 15px 20px;
+}
+aside p {
+    margin: 10px 0 20px 20px;
+    text-align: left;
+}
+/*----------table----------*/
+table {
+/*    width: 80px;*/
+    height: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+td {
+    padding-right: 15px;
+}
